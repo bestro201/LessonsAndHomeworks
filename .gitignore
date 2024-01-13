@@ -1,4 +1,8 @@
 .idea/
+
+lesson_02/*
+lesson_03/*
+
 out/
 *.iml
 .DS_Store
