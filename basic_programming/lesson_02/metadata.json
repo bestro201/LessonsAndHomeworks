@@ -1,0 +1,11 @@
+{
+  "topic": "IDE IntelliJ IDEA, Data types, Variables",
+  "date": "2023-01-17",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/CamelCase.java"
+  ],
+  "video": ""
+}

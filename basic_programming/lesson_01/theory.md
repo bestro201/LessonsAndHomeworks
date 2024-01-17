@@ -119,44 +119,6 @@ C# – уверенный середнячок с большим потенци�
 - HDD / SSD – постоянная энергонезависимая память. Большой объем. По сравнению с RAM – медленная.
 
 
-## 04. Компиляция vs Интерпретация
-**Транслятор** представляет собой программу, на основе которой компьютер преобразует вводимые в него программы на машинный язык, поскольку он может выполнять программы, записанные только на языке его процессора, и алгоритмы, заданные на другом языке, должны быть перед их выполнением переведены на машинный язык.
-Трансляторы реализуются в виде компиляторов или интерпретаторов. С точки зрения выполнения работы компилятор и интерпретатор существенно различаются.
-- Компилятор (англ. compiler - составитель, собиратель) читает всю программу целиком, делает ее перевод и создает законченный вариант программы на машинном языке, который затем и выполняется. Результат работы компилятора — бинарный исполняемый файл.
-- Интерпретатор (англ. interpreter - истолкователь, устный переводчик) переводит и выполняет программу строка за строкой.
-
-После того, как программа откомпилирована, ни исходный текст программы, ни компилятор более не нужны для исполнения программы. В то же время программа, обрабатываемая интерпретатором, должна заново переводиться на машинный язык при каждом очередном запуске программы. То есть исходный файл является непосредственно исполняемым.
-
-У интерпретаторов и компиляторов есть ряд различий — теоретических и чисто практических:
-
-- Интерпретатор работает с кодом построчно, а компилятор переводит весь блок кода целиком. 
-- Интерпретатор исполняет код, как только «прочтет» нужную строку, а компилятор отдает его на выполнение системе — сам он только переводит.
-
-Откомпилированные программы работают быстрее, но интерпретируемые проще исправлять и изменять. Но… особенность компилируемых языков - для каждой ОС или архитектуры компьютера программу нужно перекомпилировать. Для часто-переносимых прикладных программ это плохо - нужно перекомпилировать, а это потенциально долгая операция. 
-
-Для достижения большей скорости работы программ на интерпретируемых языках программирования может использоваться трансляция в промежуточный байт-код. 
-Языком, позволяющим данную хитрость, например, является Java.
-
-
-## 05. Hello, World
-
-```
-public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World");
-    }
-}
-```
-
-```
-javac HelloWorld.java
-```
-
-```
-java HelloWorld
-
-```
-
 <details style="margin-top: 16px">
   <summary style="cursor: pointer; color: green;"><b>English</b></summary>
 
@@ -281,42 +243,5 @@ Computer architecture based on von Neumann principles (1946).
 - RAM (Random Access Memory) - volatile memory, small capacity, fast speed, power-dependent.
 - HDD / SSD - non-volatile memory. Large capacity. Slower compared to RAM.
 
-
-## 04. Compilation vs Interpretation
-A **translator** is a program that allows a computer to convert programs entered into it into machine language, as it can only execute programs written in its processor's language, and algorithms written in another language must be translated into machine language before execution.
-Translators are implemented as compilers or interpreters. From an execution standpoint, compilers and interpreters differ significantly.
-- A **compiler** reads the entire program, translates it, and generates a complete version of the program in machine language, which is then executed. The compiler's result is a binary executable file.
-- An **interpreter** translates and executes the program line by line.
-
-Once a program is compiled, neither the source code nor the compiler is needed for program execution. However, a program processed by an interpreter must be translated into machine language again each time the program is launched. In other words, the source file is directly executable.
-
-Interpreters and compilers have several theoretical and practical differences:
-- An interpreter works with code line by line, while a compiler translates entire code blocks at once.
-- An interpreter executes code as soon as it "reads" the relevant line, while a compiler hands it over to the system for execution – it only performs the translation.
-
-Compiled programs run faster, but interpreted ones are easier to fix and modify. However, a characteristic of compiled languages is that a program needs to be recompiled for each operating system or computer architecture. For frequently portable applications, this is inconvenient, as recompilation is potentially time-consuming.
-
-To achieve higher program execution speeds in interpreted languages, intermediate bytecode translation can be utilized. Java, for instance, is a language that allows for this trick.
-
-
-
-## 05. Hello, World
-
-```
-public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World");
-    }
-}
-```
-
-```
-javac HelloWorld.java
-```
-
-```
-java HelloWorld
-
-```
 
 </details>
