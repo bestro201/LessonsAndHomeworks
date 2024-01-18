@@ -1,0 +1,11 @@
+{
+  "topic": "Variables, Mathematical operations",
+  "date": "2023-01-18",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/MathOperations.java"
+  ],
+  "video": ""
+}
