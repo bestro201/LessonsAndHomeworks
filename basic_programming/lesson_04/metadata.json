@@ -1,0 +1,11 @@
+{
+  "topic": "Type char, class String",
+  "date": "2023-01-19",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/Main4.java"
+  ],
+  "video": ""
+}
