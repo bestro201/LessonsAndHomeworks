@@ -1,0 +1,12 @@
+{
+  "topic": "class String, тип boolean",
+  "date": "2024-01-22",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/HW4_Task1.java"
+
+  ],
+  "video": ""
+}
