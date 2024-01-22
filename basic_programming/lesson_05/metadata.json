@@ -5,7 +5,9 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/HW4_Task1.java"
+    "code/src/StringMethods.java",
+    "code/src/BooleanExample.java",
+    "code/src/HW04_Task1.java"
 
   ],
   "video": ""
