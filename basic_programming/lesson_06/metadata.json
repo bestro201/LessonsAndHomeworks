@@ -5,7 +5,15 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/HW05_Task_01.java"
+    "code/src/BooleanExample_2.java",
+    "code/src/DevZero.java",
+    "code/src/ScannerExample.java",
+    "code/src/StringComparison.java",
+    "code/src/IfStatement.java",
+    "code/src/hw5/Task1.java",
+    "code/src/hw5/Task2.java",
+    "code/src/hw5/Task3.java",
+    "code/src/hw5/Task4.java"
   ],
   "video": ""
 }
