@@ -7,7 +7,7 @@
 **Куча** используется для хранения объектов Java и других данных, которые нуждаются в большом и динамическом объеме памяти.
 Куча является областью памяти, где объекты создаются с помощью ключевого слова `new` и где они хранятся в течение всего своего жизненного цикла.
 
-<img src="https://raw.githubusercontent.com/ait-tr/cohort41/main/basic_programming/lesson_06/img/Stack_Heap.jpeg" style="width: 100vw;">
+<img src="https://raw.githubusercontent.com/ait-tr/cohort41/main/basic_programming/lesson_06/img/Stack_Heap.jpeg" width="100%">
 
 ## Условные операторы
 
@@ -36,7 +36,7 @@ if (условие) {блок кода}
 else {блок кода}
 ```
 
-<img src="https://raw.githubusercontent.com/ait-tr/cohort41/main/basic_programming/lesson_06/img/If.jpeg" style="width: 100vw;">
+<img src="https://raw.githubusercontent.com/ait-tr/cohort41/main/basic_programming/lesson_06/img/If.jpeg" width="100%">
 
 ## Тернарный оператор
 Тернарный оператор
