@@ -36,8 +36,7 @@ if (условие) {блок кода}
 else {блок кода}
 ```
 
-![Схема IF](https://raw.githubusercontent.com/ait-tr/cohort41/main/basic_programming/lesson_06/img/If.jpeg)
-
+<img src="https://raw.githubusercontent.com/ait-tr/cohort41/main/basic_programming/lesson_06/img/If.jpeg" style="width: 100vw;">
 
 ## Тернарный оператор
 Тернарный оператор
