@@ -63,7 +63,7 @@ do {
     ...
 } while (condition)
 ```
-<img src="https://raw.githubusercontent.com/ait-tr/cohort41/main/basic_programming/lesson_07/img/while.jpeg" width="100%">
+<img src="https://raw.githubusercontent.com/ait-tr/cohort41/main/basic_programming/lesson_07/img/while41.jpeg" width="100%">
 <img src="https://raw.githubusercontent.com/ait-tr/cohort41/main/basic_programming/lesson_07/img/doWhile.jpeg" width="100%">
 
 

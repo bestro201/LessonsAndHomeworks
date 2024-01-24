@@ -6,7 +6,11 @@
   "homework": "homework.md",
   "code": [
 
-    "code/src/HW06_Task_01.java"
+    "code/src/SwitchExample.java",
+    "code/src/WhileLoop.java",
+    "code/src/hw6/Task1.java",
+    "code/src/hw6/Task2.java"
+
   ],
   "video": ""
 }
