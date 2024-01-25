@@ -1,12 +1,21 @@
 {
-  "topic": "Array, For loop",
+  "topic": "Array",
   "date": "2024-01-25",
   "plan": "plan.md",
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
 
-    "code/src/HW07_Task_01.java"
+    "code/src/ArraysExample.java",
+    "code/src/DoWhile.java",
+    "code/src/hw7/Task0.java",
+    "code/src/hw7/Task1.java",
+    "code/src/hw7/Task2.java",
+    "code/src/hw7/Task3.java",
+    "code/src/hw7/Task4.java",
+    "code/src/hw7/Task5.java"
+
+
   ],
   "video": ""
 }
