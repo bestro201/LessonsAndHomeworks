@@ -23,7 +23,7 @@ public class Task5Example {
             System.out.println("Введите слово: ");
             inputText = scanner.nextLine();
 
-            counter++;
+            counter = counter + 1;
 
             if (inputText.equals("hello")) {
                 System.out.println("Спасибо за сотрудничество!");
