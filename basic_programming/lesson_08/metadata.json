@@ -1,0 +1,12 @@
+{
+  "topic": "Array, For loop",
+  "date": "2024-01-25",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+
+    "code/src/HW07_Task_01.java"
+  ],
+  "video": ""
+}
