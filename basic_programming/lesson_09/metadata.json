@@ -6,7 +6,11 @@
   "homework": "homework.md",
   "code": [
 
-    "code/src/HW08_Task_01.java"
+    "code/src/ForLoop.java",
+    "code/src/Methods.java",
+    "code/src/hw8/Task2.java",
+    "code/src/hw8/Task3_4.java",
+    "code/src/hw8/Task5.java"
   ],
   "video": ""
 }
