@@ -12,3 +12,5 @@ out/
 .DS_Store
 plan1*.md
 plan2*.md
+
+test_ignore/
