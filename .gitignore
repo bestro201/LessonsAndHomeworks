@@ -1,6 +1,6 @@
 .idea/
 
-lesson_10/
+lesson_15/
 lesson_11/
 lesson_12/
 lesson_13/
@@ -14,3 +14,5 @@ plan1*.md
 plan2*.md
 
 test_ignore/
+
+*.iml

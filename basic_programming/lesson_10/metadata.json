@@ -1,0 +1,13 @@
+{
+  "topic": "Methods void",
+  "date": "2024-01-29",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/hw9/Task1.java",
+    "code/src/hw9/Task2.java",
+    "code/src/hw9/Task3.java"
+  ],
+  "video": ""
+}
