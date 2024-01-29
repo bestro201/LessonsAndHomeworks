@@ -27,6 +27,31 @@ _Модификаторы и параметры необязательны_
 
 Пример метода без модификаторов (вернее сказать с модификаторами по умолчанию) и без параметров.\
 
+### Методы с параметрами
+
+Теперь добавим параметры к методу. Параметры - это данные, которые вы передаете в метод, чтобы он мог использовать их в своих инструкциях.
+
+Пример метода с параметрами:
+
+```
+public class MyClass {
+    // Метод с параметром
+    public void printMessage(String message) {
+        System.out.println(message);
+    }
+
+    public static void main(String[] args) {
+        MyClass myObject = new MyClass();
+        myObject.printMessage("Это сообщение было передано в метод как параметр."); // Вызов метода с параметром
+    }
+}
+```
+
+Здесь `printMessage` принимает один параметр `message` типа `String`. Метод выводит переданное сообщение.
+
+<img src="https://raw.githubusercontent.com/ait-tr/cohort41/main/basic_programming/lesson_10/img/methodsMemory.jpeg" width="100%">
+
+
 
 <details style="margin-top: 16px">
   <summary style="cursor: pointer; color: green;"><b>English</b></summary>
