@@ -32,15 +32,17 @@ public class ArrayUtils {
         System.out.println(binarySearch(ints, 100));
 
         int[] testInts = initTestArray(1_000_000);
-        int[] searchValues = initTestArray(100);
+
+        // Используя два алгоритма поиска ищем в массиве на 1_000_000 элементов отсутствующее значение.
+        // Засекаем время работы обоих алгоритмов и сравниваем
 
 
         long start = System.currentTimeMillis();
 
-        int[] resultOfSearch = new int[10000];
+
 
         for (int i = 0; i < 10000; i++) {
-            resultOfSearch[i] = linearSearch(testInts, 2005);
+            linearSearch(testInts, 2005);
         }
 
         long end = System.currentTimeMillis();
@@ -49,10 +51,10 @@ public class ArrayUtils {
 
         start = System.currentTimeMillis();
         sortArray(ints);
-        resultOfSearch = new int[10000];
+
 
         for (int i = 0; i < 10000; i++) {
-            resultOfSearch[i] = binarySearch(testInts, 2005);
+            binarySearch(testInts, 2005);
         }
 
         end = System.currentTimeMillis();
