@@ -1,3 +1,5 @@
+package simpleNumber;
+
 public class SimpleNumbers {
     public static void main(String[] args) {
         /*

@@ -1,3 +1,5 @@
+package simpleNumber;
+
 public class SimpleNumberService {
 
     public boolean checkSimple(int number){
