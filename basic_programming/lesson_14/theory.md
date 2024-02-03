@@ -1,5 +1,4 @@
 ## Список уже полученных знаний и умений:
-## List of Acquired Knowledge and Skills:
 
 ### 1 **Типы переменных (ТИП, имя, значение)**
 int, double, long, char, float, short, byte, boolean - примитивные типы
@@ -181,6 +180,7 @@ DRY (Don’t repeat yourself - не повторяйся) - основной п�
 <details style="margin-top: 16px">
   <summary style="cursor: pointer; color: green;"><b>English</b></summary>
 
+## List of Acquired Knowledge and Skills:
 
 ### 1. **Variable Types (TYPE, name, value)**
     - int, double, long, char, float, short, byte, boolean - primitive types
