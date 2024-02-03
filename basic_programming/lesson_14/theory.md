@@ -13,7 +13,6 @@ String - сложный тип (ссылочный тип данных)
     + , - , * , / - целочисленное для int, % - остататок от деления (деление с остатком)
     Math.method - класс с изобилием математических функций.
 
-
 ### 3 **Накопление суммы/значения в переменной**
 
     sum = sum + 1; // так писали раньше
@@ -43,7 +42,6 @@ Scanner scanner = new Scanner(System.in);
     Выбрать правильный метод для приема данных от пользователя.
 
 Не забывать писать приглашение пользователю для ввода данных!
-
 
 ### 6 **Проверка условия**
 
@@ -348,8 +346,5 @@ If a method is not of type `void`, it returns a value of the type defined in its
 - A variable's value computed within the method (e.g., `return array;`).
 - An expression computed on the fly (e.g., `return str + str1;` will first concatenate strings and then return the result).
 - A literal value (constant).
-
-
-
 
 </details>
