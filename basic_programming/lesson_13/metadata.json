@@ -5,9 +5,9 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/hw12/Task1.java",
-    "code/src/hw12/Task2.java",
-    "code/src/hw12/Task3.java"
+    "src/hw/HW12_Task1.java",
+    "src/hw/HW12_Task2.java",
+    "src/hw/HW12_Task3.java"
   ],
   "video": ""
 }
