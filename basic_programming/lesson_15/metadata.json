@@ -5,7 +5,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "/src/hw14/HW14_Task1.java"
+   "/src/Cat.java",
+   "/src/CatsMain.java",
+   "/src/stepsGit.md",
+   "/src/hw14/HW14_Task0.java",
+   "/src/hw14/HW14_Task1.java",
+   "/src/hw14/HW14_Task2.java"
   ],
   "video": ""
 }
