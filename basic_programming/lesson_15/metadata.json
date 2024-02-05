@@ -1,0 +1,11 @@
+{
+  "topic": "OOP - Object-oriented programming",
+  "date": "2024-02-05",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "/src/hw14/HW14_Task1.java"
+  ],
+  "video": ""
+}
