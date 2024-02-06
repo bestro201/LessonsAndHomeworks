@@ -1,0 +1,11 @@
+{
+  "topic": "Rubber Array",
+  "date": "2024-02-06",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "src/hw15/Task1.java"
+  ],
+  "video": ""
+}
