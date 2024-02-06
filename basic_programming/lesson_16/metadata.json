@@ -5,7 +5,14 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "src/hw15/Task1.java"
+   "src/RubberArray.java",
+   "src/MainRubberArray.java",
+   "src/Cat.java",
+   "src/Main16.java",
+   "src/Dog.java",
+   "src/MainDogs.java",
+   "src/hw14/HW14_Task3.java",
+   "src/hw14/HW14_Task4.java"
   ],
   "video": ""
 }
