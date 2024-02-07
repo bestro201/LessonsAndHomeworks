@@ -1,0 +1,11 @@
+{
+  "topic": "Encapsulation",
+  "date": "2024-02-07",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "src/hw16/Task1.java"
+  ],
+  "video": ""
+}
