@@ -5,7 +5,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "src/hw16/Task1.java"
+   "src/ArrayObjects.java",
+   "src/Person.java",
+   "src/Cat.java",
+   "src/MainCat.java",
+   "src/ra/RubberArray.java",
+   "src/ra/ArrayTest.java"
   ],
   "video": ""
 }
