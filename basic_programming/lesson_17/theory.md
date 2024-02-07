@@ -1,3 +1,11 @@
+Массив объектов:
+
+<img src="https://raw.githubusercontent.com/ait-tr/cohort41/main/basic_programming/lesson_17/img/people.jpeg" width="100%">
+
+
+---
+
+### Инкапсуляция
 Сегодня мы поговорим об инкапсуляции в Java.
 
 И начнем с примеров :)
