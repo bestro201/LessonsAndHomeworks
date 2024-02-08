@@ -5,7 +5,14 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "src/hw17/Task1.java"
+   "src/Car.java",
+   "src/Lesson18.java",
+   "src/Test.java",
+   "src/MathUtils.java",
+   "src/StaticBlockDemo.java",
+   "src/MainStaticBlock.java",
+   "src/ra/RubberArray.java",
+   "src/ra/ArrayTest.java"
   ],
   "video": ""
 }

@@ -40,6 +40,9 @@ public class Car {
 
 Для каждого объекта этого класса будет увеличиваться один и тот же экземпляр переменной `numberOfCars`
 
+<img src="https://raw.githubusercontent.com/ait-tr/cohort41/main/basic_programming/lesson_18/img/static.jpeg" width="100%">
+
+
 Причины использовать статические поля:
 
 - Когда значение поля должно быть общим для всех объектов класса, в котором оно определено 
