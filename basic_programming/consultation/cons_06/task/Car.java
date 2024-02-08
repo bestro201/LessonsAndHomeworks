@@ -28,13 +28,15 @@ public class Car {
     }
 
     // Метод для запуска двигателя
-    public void startEngine(){
+    public boolean startEngine(){
         System.out.println("Двигатель " + model + " заведен!");
+        return true;
     }
 
     // Метод для остановки двигателя
-    public void stopEngine(){
+    public boolean stopEngine(){
         System.out.println("Двигатель " + model + " остановлен!");
+        return false;
     }
 
     // Метод для сигнала
