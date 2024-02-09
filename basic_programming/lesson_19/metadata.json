@@ -5,7 +5,13 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "src/hw18/Task1.java"
+   "src/FinalDemo.java",
+   "src/Main19.java",
+   "src/Employee.java",
+   "src/MainEmployee.java",
+   "src/ArraysUse.java",
+   "src/hw18/Dog.java",
+   "src/hw18/JumpingDog.java"
   ],
   "video": ""
 }
