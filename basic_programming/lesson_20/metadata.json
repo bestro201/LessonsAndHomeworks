@@ -5,8 +5,14 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
+    "src/Vehicle.java",
+    "src/Bus.java",
+    "src/Train.java",
+    "src/SpecialBus.java",
+    "src/TransportMain.java",
     "src/hw19/Calculator.java",
-    "src/hw19/Counter.java"
+    "src/hw19/CalculatorMain.java",
+    "src/hw19/StringSearch.java"
   ],
   "video": ""
 }
