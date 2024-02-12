@@ -1,0 +1,12 @@
+{
+  "topic": "Inheritance",
+  "date": "2024-02-12",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/hw19/Calculator.java",
+    "src/hw19/Counter.java"
+  ],
+  "video": ""
+}
