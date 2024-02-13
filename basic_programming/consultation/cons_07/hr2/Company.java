@@ -26,10 +26,11 @@ public class Company {
 
 // ??? как нам найти всех сотрудников из какого-то отдела ???
 
+        String searchDepartmentName = departments[3].getName();
+
         for (int i = 0; i < employees.length; i++) {
 
             String employeeDepartmentName = employees[i].getDepartment().getName();
-            String searchDepartmentName = departments[3].getName();
 
             if (employeeDepartmentName.equals(searchDepartmentName)) {
                 System.out.println(employees[i]);
