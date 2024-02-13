@@ -5,7 +5,13 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "src/hw20/Calculator.java"
+    "src/Autobus.java",
+    "src/BusDriver.java",
+    "src/Autopilot.java",
+    "src/Passenger.java",
+    "src/AutoParkMain.java",
+    "src/StringBuilderExample.java",
+    "src/hw20/SpecialBus.java"
   ],
   "video": ""
 }
