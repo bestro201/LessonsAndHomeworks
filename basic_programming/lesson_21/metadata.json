@@ -1,0 +1,11 @@
+{
+  "topic": "Composition, Aggregation",
+  "date": "2024-02-13",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/hw20/Calculator.java"
+  ],
+  "video": ""
+}
