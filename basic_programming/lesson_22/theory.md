@@ -117,30 +117,8 @@ If, as a result of assignment, we move up the inheritance chain (towards the `Ob
 
 ---
 
-</details>
 
-<details style="margin-top: 16px">
-  <summary style="cursor: pointer; color: green;"><b>Код</b></summary>
 
-```
-public class Main24 {
-   public static void main(String[] args) {
-       Cat cat = new Cat();
-       Dog dog = new Dog();
-       Hamster hamster = new Hamster();
-   }
-}
-```
-
-```
-public class Main24 {
-   public static void main(String[] args) {
-       Animal cat = new Cat();
-       Animal dog = new Dog();
-       Animal hamster = new Hamster();
-   }
-}
-```
 
 ---
 ### Class Object
@@ -187,4 +165,5 @@ Overriding methods of the `Object` class provides two important aspects of polym
 Thus, the presence of the `Object` class methods in all Java classes and the ability to override them are fundamental aspects of object-oriented programming in Java. This ensures universality and flexibility when working with objects of various types, allowing developers to modify or extend the basic behavior of objects to meet the specific requirements of their programs.
 
 </details>
+
 
