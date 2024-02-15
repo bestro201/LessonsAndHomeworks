@@ -1,24 +1,57 @@
+import java.util.Arrays;
+
 public class PeopleApp {
     public static void main(String[] args) {
 
         Person[] people = new Person[10];
 
-        Schoolchild petya = new Schoolchild("Petya",12, 6, 4.5);
+        System.out.println(Arrays.toString(people));
 
-        Student ruslan = new Student("Ruslan", 21, "college # 12");
+        Schoolchild person1 = new Schoolchild("Petya",12, 6, 4.5);
 
-        Employee roman = new Employee("Roman", 35,"Apple");
+        Student person2 = new Student("Ruslan", 21, "college # 12");
+
+        Employee person3 = new Employee("Roman", 35,"Apple");
 
 
-        people[0] = petya;
-        people[1] = ruslan;
-        people[2] = roman;
+        Schoolchild person4 = new Schoolchild("Olga",14, 8, 4.9);
 
-        for (int i = 0; i < 3; i++) {
-            people[i].say();
-        }
+        Student person5 = new Student("Victor", 20, "college # 12");
+
+        Employee person6 = new Employee("Vasja", 45,"Samsung");
+
+        Schoolchild person7 = new Schoolchild("Oleg",12, 6, 4.0);
+
+        Student person8 = new Student("Anna", 25, "college # 17");
+
+        Employee person9 = new Employee("Georgy", 30,"Google");
+
+
+        people[0] = person1;
+        people[1] = person2;
+        people[2] = person3;
+        people[3] = person4;
+        people[4] = person5;
+        people[5] = person6;
+        people[6] = person7;
+        people[7] = person8;
+        people[8] = person9;
+
+
+
+
+        System.out.println(Arrays.toString(people));
+
 
         //? задача - мы хотим чтобы ВСЕ эти люди могли разговаривать, НО каждый по своему
+
+        for (int i = 0; i < people.length; i++) {
+            if (people[i] != null) {
+                people[i].say();
+            }
+        }
+
+
 
     }
 }
