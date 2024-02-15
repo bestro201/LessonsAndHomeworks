@@ -14,7 +14,7 @@ public class PeopleApp {
         Employee person3 = new Employee("Roman", 35,"Apple");
 
 
-        Schoolchild person4 = new Schoolchild("Olga",14, 8, 4.9);
+        Schoolchild person4 = new Schoolchild("Olga",16, 10, 4.9);
 
         Student person5 = new Student("Victor", 20, "college # 12");
 
@@ -38,8 +38,6 @@ public class PeopleApp {
         people[8] = person9;
 
 
-
-
         System.out.println(Arrays.toString(people));
 
 
@@ -52,6 +50,25 @@ public class PeopleApp {
         }
 
 
+        System.out.println("======== ДЕНЬ РОЖДЕНИЯ ОЛЬГИ ======");
 
+        int olgaAge = people[3].getAge();
+
+        System.out.println("Ольге было " + people[3].getAge());
+        people[3].setAge(++olgaAge);
+
+        System.out.println();
+        System.out.println("Ольге стало " + people[3].getAge());
+
+        Person olga = people[3];
+
+        people[3] = new Student(olga.getName(),olga.getAge(), "college # 1");
+
+
+        for (int i = 0; i < people.length; i++) {
+            if (people[i] != null) {
+                people[i].say();
+            }
+        }
     }
 }
