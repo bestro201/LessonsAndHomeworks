@@ -8,4 +8,18 @@ public class Schoolchild extends Person{
         this.classNumber = classNumber;
         this.avgGrade = avgGrade;
     }
+
+    public int getClassNumber() {
+        return classNumber;
+    }
+
+    public double getAvgGrade() {
+        return avgGrade;
+    }
+
+    @Override
+    public void say(){
+        System.out.println("Привет, я - " + getName() + ". Я учусь в " + getClassNumber() + " классе");
+
+    }
 }

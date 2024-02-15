@@ -8,6 +8,10 @@ public class Person {
         this.age = age;
     }
 
+    public Person(String name) {
+        this.name = name;
+    }
+
     public String getName() {
         return name;
     }
@@ -19,6 +23,11 @@ public class Person {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public void say(){
+        System.out.println("Метод say родительского класса");
+    }
+
 
     @Override
     public String toString() {
