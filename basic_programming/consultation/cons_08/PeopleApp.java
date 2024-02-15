@@ -70,5 +70,8 @@ public class PeopleApp {
                 people[i].say();
             }
         }
+
+
+
     }
 }

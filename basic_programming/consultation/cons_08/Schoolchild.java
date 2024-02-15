@@ -1,4 +1,4 @@
-public class Schoolchild extends Person{
+public class Schoolchild extends Person {
 
     private int classNumber;
     private double avgGrade;
@@ -22,4 +22,5 @@ public class Schoolchild extends Person{
         System.out.println("Привет, я - " + getName() + ". Я учусь в " + getClassNumber() + " классе");
 
     }
+
 }

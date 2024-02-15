@@ -1,4 +1,4 @@
-public class Student extends Person{
+public class Student extends Person {
     private String collegeName;
 
     public Student(String name, int age, String collegeName) {
@@ -15,4 +15,6 @@ public class Student extends Person{
         System.out.println("Меня зовут " + getName() + ". Я учусь в " + getCollegeName());
 
     }
+
+
 }
