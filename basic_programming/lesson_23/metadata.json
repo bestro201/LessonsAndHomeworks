@@ -5,7 +5,18 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "src/hw22/Task1.java"
+    "src/runners/Human.java",
+    "src/runners/AmateurRunner.java",
+    "src/runners/ProfRunner.java",
+    "src/runners/Runners.java",
+    "src/transport/Vehicle.java",
+    "src/transport/Engine.java",
+    "src/transport/Car.java",
+    "src/transport/Bicycle.java",
+    "src/transport/Motorcycle.java",
+    "src/transport/TransportMain.java",
+    "src/transport/Scooter.java",
+    "src/transport/SuperScooter.java"
   ],
   "video": ""
 }
