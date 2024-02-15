@@ -1,0 +1,23 @@
+{
+  "topic": "Polymorphism",
+  "date": "2024-02-14",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/Animal.java",
+    "src/Cat.java",
+    "src/Dog.java",
+    "src/Hamster.java",
+    "src/Zoo.java",
+    "src/Casting.java",
+    "src/SuperCat.java",
+    "src/hw21/Computer.java",
+    "src/hw21/Component.java",
+    "src/hw21/Memory.java",
+    "src/hw21/Processor.java",
+    "src/hw21/Storage.java",
+    "src/hw21/bus/Autobus.java"
+  ],
+  "video": ""
+}

@@ -1,0 +1,17 @@
+{
+  "topic": "Composition, Aggregation",
+  "date": "2024-02-13",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/Autobus.java",
+    "src/BusDriver.java",
+    "src/Autopilot.java",
+    "src/Passenger.java",
+    "src/AutoParkMain.java",
+    "src/StringBuilderExample.java",
+    "src/hw20/SpecialBus.java"
+  ],
+  "video": ""
+}
