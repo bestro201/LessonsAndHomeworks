@@ -5,7 +5,23 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "src/hw23/Task1.java"
+    "src/printers/Printable.java",
+    "src/printers/Book.java",
+    "src/printers/ColorPrintable.java",
+    "src/printers/Presentation.java",
+    "src/printers/PrintApp.java",
+    "src/printers/Printer.java",
+    "src/transport/Transport.java",
+    "src/transport/Flyable.java",
+    "src/transport/Airplane.java",
+    "src/transport/Swimmable.java",
+    "src/transport/Boat.java",
+    "src/transport/Duck.java",
+    "src/transport/MainApp.java",
+    "src/hw23/GameCharacter.java",
+    "src/hw23/Warrior.java",
+    "src/hw23/Archer.java",
+    "src/hw23/MagicApp.java"
   ],
   "video": ""
 }
