@@ -7,7 +7,7 @@ package ra;
 public class ArrayTest {
     public static void main(String[] args) {
 
-        RubberArray ra = new RubberArray();
+        RubberArrayOld ra = new RubberArrayOld();
 
         ra.add(10, 15, -6, -1, -16, 99, 0, 15);
 

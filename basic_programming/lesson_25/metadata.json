@@ -1,0 +1,12 @@
+{
+  "topic": "Generics",
+  "date": "2024-02-19",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/myList/MyList.java"
+
+  ],
+  "video": ""
+}

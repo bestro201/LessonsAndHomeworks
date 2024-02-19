@@ -4,12 +4,12 @@ package ra;
 @author Sergey Bugaienko
 */
 
-public class RubberArray {
+public class RubberArrayOld {
 
     int[] array;
     int cursor; // присвоено значение по умолчанию 0
 
-    public RubberArray() {
+    public RubberArrayOld() {
         array = new int[10];
     }
 
