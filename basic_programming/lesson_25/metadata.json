@@ -5,7 +5,26 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "src/myList/MyList.java"
+    "src/myList/MyList.java",
+    "src/generics/GenericsBox.java",
+    "src/generics/GenericsApp.java",
+    "src/generics/SimpleBox.java",
+    "src/generics/SimpleApp.java",
+    "src/generics/Wrappers.java",
+    "src/generics/GenericMethods.java",
+    "src/hw/runners/Runner.java",
+    "src/hw/runners/Swimmer.java",
+    "src/hw/runners/Triathlete.java",
+    "src/hw/runners/TriathleteApp.java",
+    "src/hw/ps1/PaySystem.java",
+    "src/hw/ps1/BankAcc.java",
+    "src/hw/ps1/EWallet.java",
+    "src/hw/ps1/BankApp.java",
+    "src/hw/ps2/PaymentSystem.java",
+    "src/hw/ps2/VusaMember.java",
+    "src/hw/ps2/BankAccount.java",
+    "src/hw/ps2/ElectronicWallet.java",
+    "src/hw/ps2/BankApp.java"
 
   ],
   "video": ""
