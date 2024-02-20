@@ -9,6 +9,7 @@ public class CalcDemo {
 
         System.out.println(CalcStatic.sum(5,10));
 
+        System.out.println(Math.PI);
 
 
     }
