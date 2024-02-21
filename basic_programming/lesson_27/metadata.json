@@ -5,7 +5,10 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "src/Person.java"
+    "src/Person.java",
+    "src/PersonApp.java",
+    "src/test/PersonTest.java",
+    "src/util/MyArrayList.java"
 
   ],
   "video": ""
