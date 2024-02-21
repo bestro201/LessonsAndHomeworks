@@ -1,0 +1,12 @@
+{
+  "topic": "JUnit Jupiter",
+  "date": "2024-02-21",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/Person.java"
+
+  ],
+  "video": ""
+}
