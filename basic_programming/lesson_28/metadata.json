@@ -5,8 +5,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "src/MyQueue.java"
-
+    "src/Member.java",
+    "src/MemberTest.java",
+    "src/EnumTest.java",
+    "src/data.csv",
+    "src/MyLinkedList.java",
+    "src/NestedExample.java"
   ],
   "video": ""
 }
