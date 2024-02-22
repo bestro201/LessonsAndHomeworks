@@ -1,0 +1,15 @@
+{
+  "topic": "Nested and inner classes",
+  "date": "2024-02-20",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/MyArrayList.java",
+    "src/MyList.java",
+    "src/ArrayListApp.java"
+
+
+  ],
+  "video": ""
+}

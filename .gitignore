@@ -1,11 +1,12 @@
 .idea/
 
 lesson_30/
-lesson_26/
-lesson_27/
-lesson_28/
+lesson_31/
+lesson_32/
+lesson_33/
 lesson_29/
 
+lib/
 
 out/
 *.iml
