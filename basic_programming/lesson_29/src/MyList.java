@@ -1,108 +1,118 @@
-public interface MyList<T> {
+import util.MyList;
+
+import java.util.Arrays;
 
 
-    /**
-     * Добавить элемент
-     *
-     * @param value
-     */
-    void add(T value);
+public class MyList<T> implements MyLinkedList<T> {
+        private static final int DEFAULT_CAPACITY = 10;
+        private Object[] array;
+        private int size;
+
+        public MyList() {
+            this.array = new Object[DEFAULT_CAPACITY];
+            this.size = 0;
+        }
+        @Override
+        public void add(T value) {
+            ensureCapacity();
+            array[size++] = value;
+        }
+
+        @Override
+        public void addAll(T... values) {
+            ensureCapacity(size + values.length);
+            System.arraycopy(values, 0, array, size, values.length);
+            size += values.length;
+        }
+
+        @Override
+        public int size() {
+            return size;
+        }
+
+        @Override
+        public int indexOf(T value) {
+            for (int i = 0; i < size; i++) {
+                if (array[i].equals(value)) {
+                    return i;
+                }
+            }
+            return -1;
+        }
+        @Override
+        public int lastIndexOf(T value) {
+            for (int i = size - 1; i >= 0; i--) {
+                if (array[i].equals(value)) {
+                    return i;
+                }
+            }
+            return -1;
+        }
+        @Override
+        public boolean contains(T value) {
+            return indexOf(value) != -1;
+        }
+
+        @Override
+        public T[] toArray() {
+            return Arrays.copyOf((T[]) array, size);
+        }
+
+        @Override
+        public boolean remove(T value) {
+            int index = indexOf(value);
+            if (index != -1) {
+                remove(index);
+                return true;
+            }
+            return false;
+        }
+
+        @Override
+        public T remove(int index) {
+            if (index < 0 || index >= size) {
+                throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
+            }
+            T removedValue = (T) array[index];
+            System.arraycopy(array, index + 1, array, index, size - index - 1);
+            array[--size] = null;
+            return removedValue;
+        }
+
+        @Override
+        public boolean isEmpty() {
+            return size == 0;
+        }
+
+        @Override
+        public T get(int index) {
+            if (index < 0 || index >= size) {
+                throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
+            }
+            return (T) array[index];
+        }
+
+        @Override
+        public void set(int index, T value) {
+            if (index < 0 || index >= size) {
+                throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
+            }
+            array[index] = value;
+        }
+
+        private void ensureCapacity() {
+            if (size == array.length) {
+                int newCapacity = array.length * 2;
+                array = Arrays.copyOf(array, newCapacity);
+            }
+        }
+
+        private void ensureCapacity(int minCapacity) {
+            if (minCapacity > array.length) {
+                int newCapacity = Math.max(minCapacity, array.length * 2);
+                array = Arrays.copyOf(array, newCapacity);
+            }
 
 
-    /**
-     * добавить несколько элементов
-     *
-     * @param values
-     */
-    void addAll(T... values);
-
-
-    /**
-     * Возвращает количество элементов в массиве
-     *
-     * @return int - количество элементов в массиве
-     */
-    int size();
-
-    //Поиск элемента по значению. Возвращает индекс первого вхождения.
-
-    /**
-     * Поиск элемента по значению
-     *
-     * @param value
-     * @return int - индекс элемента
-     */
-    int indexOf(T value);
-
-
-    /**
-     * Поиск элемента по значению
-     *
-     * @param value
-     * @return int -  индекс последнего вхождения
-     */
-    int lastIndexOf(T value);
-
-
-    /**
-     * Содержит ли массив элемент с таким значением
-     *
-     * @param value
-     * @return boolean
-     */
-    boolean contains(T value);
-
-
-    /**
-     * Возвращает представление элементов в виде массива
-     *
-     * @return Array - представление элементов в виде массива
-     */
-    T[] toArray();
-
-
-    /**
-     * Удаляет один элемент по значению
-     *
-     * @param value
-     * @return boolean. True - в случае успешного удаления.
-     */
-    boolean remove(T value);
-
-
-    /**
-     * Удаляет элемент по индексу.
-     *
-     * @param index
-     * @return - Возвращает значение удаленного элемента
-     */
-    T remove(int index);
-
-
-    /**
-     * Является ли коллекция пустой
-     *
-     * @return boolean. Если элементов в коллекции нет - вернет true
-     */
-    boolean isEmpty();
-
-
-    /**
-     * Получить значение по индексу
-     *
-     * @param index
-     * @return value
-     */
-    T get(int index);
-
-
-    /**
-     * Перезаписывает значение по указанному индексу
-     *
-     * @param index
-     * @param value
-     */
-    void set(int index, T value);
-
-
+        }
 }
